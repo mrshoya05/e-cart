@@ -2,12 +2,12 @@ import React from 'react'
 
 function Navbar() {
     return (
-        <div className='grid grid-cols-3 items-center gap-3 h-28 bg-gray-400'>
+        <div className='grid grid-cols-3 items-center gap-3 h-28 '>
            <h1 className='text-red-600 p-4 font-bold '> CONCETTI DL-LUSSION</h1>
 
 
-            <nav class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
-                <div class="max-w-screen-xl flex flex-wrap c justify-between mx-auto p-4">
+            <nav class="bg-white ">
+                <div class="max-w-screen-xl flex flex-wrap  justify-between mx-auto">
                     <div class="hidden w-full md:block md:w-auto" id="navbar-multi-level">
                         <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                             <li>
