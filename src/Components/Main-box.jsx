@@ -6,18 +6,20 @@ function Mainbox() {
    <>
    <div className="main-img">
     <img src={mainimg} alt="" />
-    <h1 className='text-bold'> Beautiful Color </h1>
-    <h2>Contarast !</h2>
-    <h5> Over 50 plus Collections to choose for !</h5>
-    <button type="button">Shop now &rarr;</button>
+    <div className='main-img-1s'>
+    <h1 className='text-bold'> Beautiful Color Contarast !</h1>
+    </div>
+    <div className='main-img-2s'>
+     <p>Over 50 Collections to Choose for !</p>
+    </div>
+    <div className="main-img-3s">
+    <button type="button">SHOP NOW &rarr;</button>
+    </div>
+    
    </div>
 
-   {/* after main image  */}
-<div className=" mx-4 grid grid-cols-3 gap-3">
-  <div className="card">card 1</div>
-  <div className="card">card 1</div>
-  <div className="card">card 1</div>
-</div>
+
+
 
    </>
   )

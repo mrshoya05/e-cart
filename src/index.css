@@ -6,49 +6,272 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Hind Siliguri";
+
+
 }
+  /* top bar styling  */
+  .top-bar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #F6F6F6;
+    width: 1440px;
+    height: 56px;
+
+  }
+
+  .top-bar-phn{
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #232323;
+    height: 23px;
+  }
+.top-bar div p{
+  font-family: Hind Siliguri;
+font-size: 14px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: center;
+color:  #232323;
+
+}
+.top-bar div h5{
+  font-family: Hind Siliguri;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #9E3040;
+}
+ 
+
+/* nav bar styling  */
+.nav-bar{
+  width: 1440px;
+height: 109px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+/* top: 56px; */
+background-color: #FFFFFF;
+box-shadow: 0px 4px 14px 0px #0000001A;
+
+}
+
+.nav-bar-1s{
+margin: 0 20px;
+  margin: 10px;
+
+height: 49px;
+.nav-bar-1s p{
+  font-family: 'Hind Siliguri';
+}
+
+}
+.nav-bar p{
+
+  font-family: Hind Siliguri;
+font-size: 30px;
+font-weight: 600;
+line-height: 49px;
+letter-spacing: 0em;
+text-align: center;
+color:  #9E3040;
+
+}
+
+
+nav {
+  overflow: hidden;
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  color: #686868;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Hind Siliguri;
+font-size: 18px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* 
+icon box styling  */
+.nav-bar-3s{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 49px;
+  height: 49px;
+/* top: 86px;
+left: 1159px; */
+border-radius: 5px;
+box-shadow: 0px 0px 10px 0px #00000017;
+}
+
+.icon img{
+
+  width: 22.88px;
+height: 22px;
+/* top: 99px;
+left: 1172px; */
+
+}
+
+
+/* 4th section in nav bar */
+.nav-bar-4s{
+  width: 126px;
+height: 49px;
+/* top: 86px
+left: 1234px */
+border-radius: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #9E3040;
+box-shadow: 0px 0px 10px 0px #9E30402B;
+
+
+}
+.nav-bar-4s button{
+  color: #FFFFFF;
+  width: 62px;
+height: 29px;
+/* top: 96px
+left: 1266px */
+
+
+}
+
 .main-img {
   position: relative;
-}
-.main-img h1{
-  position: absolute;
-  top: 14rem;
-  left: 3rem;
-  color: white;
-  font-size: 60px;
-  font-weight: 600;
+  width: 1440px;
+height: 750px;
+
+
 
 }
-.main-img h2{
+.main-img-1s{
   position: absolute;
-  top: 18rem;
-  left: 4rem;
-  color: white;
-  font-size: 60px;
-  font-weight: 600;
-
-}
-.main-img h5{
-  position: absolute;
-  top: 24rem;
-  left: 4rem;
-  color: white;
-  font-size: 23px;
-  font-weight: 400;
-
+  width: 422px;
+  height: 150px;
+  top: 247px;
+  left: 80px;
 }
 
-.main-img button{
+.main-img-1s h1{
   position: absolute;
-  top: 28rem;
-  background-color: #fff;
-  color: #9E3040;
-  left: 4rem;
-  border-radius: 4px;
+  font-family: Hind Siliguri;
+font-size: 64px;
+font-weight: 600;
+line-height: 75px;
+letter-spacing: 0em;
+text-align: left;
+color: #F6F6F6;
+
+}
+.main-img-2s{
   position: absolute;
+  width: 458px;
+  height: 33px;
+  top: 416px;
+  left: 80px;
+}
+.main-img-2s p{
+  font-family: Open Sans;
+font-size: 24px;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+
+}
+
+.main-img-3s{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 187px;
+  height: 49px;
+  top: 482px;
+  left: 81px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px #00000040;
+  background: #FFFFFF;
+}
+.main-img-3s button{
   width: 132px;
-  height: 50px;
-  font-weight: 600;
-  font-size: 18px;
+height: 29px;
+top: 640px;
+left: 108px;
+color: #9E3040;
+font-weight: bolder;
 
+}
+
+
+/* main-b0x-2 stylling */
+.main-box-2{
+  padding: 40px;
+  background: url(/src/assets/images/icons/dotBgc.png);
+  overflow: hidden;
+  background-repeat: no-repeat;
+
+ 
 }
