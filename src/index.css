@@ -268,10 +268,126 @@ font-weight: bolder;
 
 /* main-b0x-2 stylling */
 .main-box-2{
-  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1440px;
   background: url(/src/assets/images/icons/dotBgc.png);
   overflow: hidden;
   background-repeat: no-repeat;
+  background-position: center;
+  margin: 60px 0px;
+  z-index: -10;
+}
 
- 
+
+  .card{
+width: 933px;
+height: 194px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+z-index: 10009;
+}
+
+
+.card-p{
+  width: 192px;
+  height: 194px;
+  z-index: 10;
+
+  
+}
+.card-c{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+height: 100px;
+z-index: 10009;
+box-shadow: 0px 1px 10px 0px #00000040;
+}
+
+.card h3{
+  width: 174px;
+  height: 49px;
+  font-family: "Hind Siliguri";
+font-size: 30px;
+font-weight: 600;
+line-height: 49px;
+letter-spacing: 0em;
+text-align: center;
+color: #232323;
+}
+
+.card p{
+width: 252px;
+height: 23px;
+font-family: "Open Sans";
+font-size: 17px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+color:  #303030;
+
+}
+/* 
+heading styling  */
+
+.heading-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+}
+
+.heading-1-c{
+  width: 400px;
+height: 58px;
+
+}
+
+.heading-1 p{
+  font-family: 'Hind Siliguri';
+font-size: 36px;
+font-weight: 600;
+line-height: 58px;
+letter-spacing: 0em;
+text-align: left;
+color:  #232323;
+
+}
+
+
+
+.main-box3{
+  background-color: red;
+  height: 400px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-box3-left{
+  background-color: green;
+  width: 50%;
+  height: 350px;
+}
+.main-box3-right{
+  background-color: blue;
+  height: 350px;
+  padding: 10px;
+  width: 50%;
+}
+.right1{
+  background-color: black;
+  height: 85px;
+  width: 25%;
+
+}
+.right2{
+  background-color: white;
+  height: 85px;
+  width: 25%;
 }

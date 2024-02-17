@@ -5,6 +5,7 @@ import cart from './assets/images/icons/cart.png'
 import img1 from './assets/images/icons/img1.png'
 import img2 from "./assets/images/icons/img2.png"
 import img3 from './assets/images/icons/img3.png'
+import dotBgc from './assets/images/icons/dotBgc.png'
 
 
 export {
@@ -15,4 +16,5 @@ export {
     img1,
     img2,
     img3,
+    dotBgc,
 }
