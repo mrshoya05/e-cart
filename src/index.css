@@ -7,6 +7,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Hind Siliguri";
+  width: 1440;
 
 
 }
@@ -362,32 +363,332 @@ color:  #232323;
 
 
 .main-box3{
-  background-color: red;
-  height: 400px;
-  width: auto;
+  /* background-color: red; */
+  height: 1000px;
+  width: 1440px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card-box{
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+ text-align: center; */
+  width: 329px;
+height: 418px;
+margin-bottom: 10px;
+background-color: #F3F5F6;
+box-shadow: 0px 0px 19px 0px #00000000;
+border-radius: 8px;
+}
+
+.card-box img{
+  margin-top: 15px;
+  margin-left: 14px;
+  width: 300px;
+height: 190px;
+border-radius: 15px;
+box-shadow: 0px 0px 4px 0px #0000001A;
+}
+
+.card-elms-1{
+  width: 300px;
+height: 82px;
+margin: 12px;
+}
+
+.card-btn-p p{
+font-family: 'Open Sans';
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #232323;
+}
+
+
+.main-box3-left{
+  width: 548px;
+  height: 903px;
+  
+}
+
+
+.main-box3-right{
+  /* background-color: blue; */
+  width: 700px;
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: center;
+}
+.card-btn-p {
+ 
+  width: 100%;
+height: 39px;
+margin-top: 5px;
+margin-left: 12px;
+
+}
+
+.card-btn-p p {
+color: #9E3040;
+}
+.card-btn-p button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  Width: 137px;
+Height: 42px;
+font-family: Hind Siliguri;
+font-size: 16px;
+font-weight: 600;
+border-radius: 4px;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+background-color: #232323;
+
+
+}
+
+.card-box-left-h{
+  width: 343px;
+height: 136px;
+position: absolute;
+}
+
+
+.card-box-left-h h1{
+  position: relative;
+  top: -700px;
+  right: -100px;
+  font-family: Hind Siliguri;
+font-size: 58px;
+font-weight: 600;
+line-height: 68px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+
+}
+/* 
+HEADING STYLING  */
+
+.heading-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.heading-2 button{
+  width: 162px;
+height: 49px;
+border-radius: 5px;
+color: #FFFFFF;
+background-color: #9E3040;
+}
+
+
+
+.box-2{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 80px;
+}
+
+.left-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 519px;
+height: 482px;
+border-radius: 20px;
+background: #F3F5F6;
+}
+
+.left-2 h1{
+  width: 462px;
+height: 58px;
+  font-family: "Hind Siliguri";
+font-size: 36px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0em;
+text-align: left;
+color: #9E3040;
+
+}
+.left-2 p{
+  width: 457px;
+height: 175px;
+font-family: "Open Sans";
+font-size: 17px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+
+
+
+}
+
+.left-2 button{
+  width: 187px;
+height: 49px;
+background-color: #232323;
+color: #FFFFFF;
+border-radius: 5px
+
+}
+
+.right-2{
+  width: 749px;
+height: 574px;
+border-radius: 30px
+
+}
+
+.heading-3{
+
+  
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.heading-3 p{
+  width: 277px;
+height: 58px;
+  font-family: "Hind Siliguri";
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #232323;
+  margin: 60px 0px;
+}
+
+
+/* cards styling  */
+
+.cards-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+border-radius: 10px;
+
+  
+}
+
+.cards-2-b{
+  box-shadow: 0px 0px 19px 0px #0000001A;
+  margin-right: 15px;
+}
+.card-2-h{
+  font-family: Hind Siliguri;
+font-size: 24px;
+font-weight: 700;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: left;
+ padding: 5px;
+  color:  #9E3040;
+
+}
+.custom-card-l  p{
+  font-family: Open Sans;
+font-size: 17px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+color: #303030;
+width: 368px;
+height: 159px;
+line-height: 1.8;
+padding: 10px;
+}
+
+
+.red-box-c{
+  display: flex;
+ align-items: center;
+ justify-content: center;
+  width: 919px;
+  height: 95px;
+font-family: "Open Sans";
+font-size: 17px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: center;
+color: #ffffff;
+}
+
+.red-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1280px;
+height: 314px;
+border-radius: 30px;
+background-color: #9E3040;
+border-radius: 30px;
+}
+
+.red-box-p{
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.main-box3-left{
-  background-color: green;
-  width: 50%;
-  height: 350px;
+
+
+
+/* styling of footer  */
+.footer{
+  width: 1440px;
+height: 385px;
+  background-color: #F3F5F6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.main-box3-right{
-  background-color: blue;
-  height: 350px;
-  padding: 10px;
-  width: 50%;
-}
-.right1{
-  background-color: black;
-  height: 85px;
-  width: 25%;
+.foot-col-1 h2{
+  font-family:" Hind Siliguri";
+font-size: 30px;
+font-weight: 600;
+line-height: 49px;
+letter-spacing: 0em;
+text-align: left;
 
 }
-.right2{
-  background-color: white;
-  height: 85px;
-  width: 25%;
+
+.foot-col-2 h2{
+  font-family:" Hind Siliguri";
+font-size: 30px;
+font-weight: 600;
+line-height: 49px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.foot-col-3 h2{
+  font-family:" Hind Siliguri";
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.foot-col-1 ul{
+  list-style: none;
+}
+.foot-col-1 ul li {
+
 }
